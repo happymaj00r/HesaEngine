@@ -35,7 +35,7 @@ namespace HMKatarina
             LaneClearMenu = MainMenu.AddSubMenu("Lane Clear Menu");
             LaneClearMenu.Add(new MenuCheckbox("useQLC", "Use Q", true));
             LaneClearMenu.Add(new MenuCheckbox("useELC", "Use E", true));
-            LaneClearMenu.Add(new MenuCheckbox("useWLC", "Use E", true));
+            LaneClearMenu.Add(new MenuCheckbox("useWLC", "Use W", true));
 
             /* Drawings Section */
             DrawingMenu = MainMenu.AddSubMenu("Drawings Menu");
@@ -49,7 +49,7 @@ namespace HMKatarina
             KillstealMenu = MainMenu.AddSubMenu("Killsteal Menu");
             KillstealMenu.Add(new MenuCheckbox("useKS", "Enable KillSteall", true));
 
-            ItemActivatorMenu = MainMenu.AddSubMenu("Flee Menu");
+            ItemActivatorMenu = MainMenu.AddSubMenu("Item Menu WIP");
             ItemActivatorMenu.Add(new MenuCheckbox("useG", "Use Hextech-Gunblade", true));
 
 
