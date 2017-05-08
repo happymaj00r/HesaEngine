@@ -10,7 +10,7 @@ namespace HMKatarina
         public static void LoadSpells()
         {
             Q = new Spell(SpellSlot.Q, 625, TargetSelector.DamageType.Magical);
-            W = new Spell(SpellSlot.W, 350, TargetSelector.DamageType.Magical);
+            W = new Spell(SpellSlot.W, 360, TargetSelector.DamageType.Magical);
             E = new Spell(SpellSlot.E, 725, TargetSelector.DamageType.Magical);
             R = new Spell(SpellSlot.R, 550, TargetSelector.DamageType.Magical);
 

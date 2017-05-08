@@ -1,4 +1,5 @@
-﻿using HMKatarina.Modes;
+﻿using System;
+using HMKatarina.Modes;
 using static HMKatarina.SpellLoader;
 using static HMKatarina.MenuLoader;
 using static HMKatarina.DrawingsLoader;
@@ -20,7 +21,7 @@ namespace HMKatarina
 
         public string Name => "HM DaqqerQueen";
 
-        public string Version => "1.0.0";
+        public string Version => "1.5.1";
 
         public string Author => "HappyMajor";
 
@@ -36,10 +37,12 @@ namespace HMKatarina
 
 
         {
-            Obj_AI_Base.OnBuffGained += OnBuffGain;
-            Obj_AI_Base.OnBuffLost += OnBuffLose;
 
-            Game.OnGameLoaded += Game_OnGameLoaded;
+            Game.OnGameLoaded += () =>
+            {
+                Core.DelayAction(Game_OnGameLoaded, new Random().Next(2500, 3001));
+            };
+
         }
 
         private void Game_OnGameLoaded()
@@ -51,7 +54,10 @@ namespace HMKatarina
               LoadSpells();
               LoadDrawings();
 
-              Game.OnTick += Game_OnTick;
+                Game.OnTick += Game_OnTick;
+                Obj_AI_Base.OnBuffGained += OnBuffGain;
+                Obj_AI_Base.OnBuffLost += OnBuffLose;
+
 
               Chat.Print("Now u can call yourself DaqqerQueen\r\n" +
                          "Thanks for using my Script in love HappyMajor " + Version);

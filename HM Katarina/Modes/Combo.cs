@@ -3,7 +3,7 @@ using static HMKatarina.MenuLoader;
 using static HMKatarina.SpellLoader;
 using static HMKatarina.MenuLoader;
 using static HMKatarina.Initialization;
-
+using static HMKatarina.Dagger;
 
 namespace HMKatarina.Modes
 {
@@ -27,6 +27,7 @@ namespace HMKatarina.Modes
 
 
             //-----------------------------------------Basic Combo----------------------------------------------------------------------------//
+            var d = Dagger.GetClosestDagger();
 
             if (q && _isUlting != true)
             {
@@ -36,10 +37,13 @@ namespace HMKatarina.Modes
                 }
 
             }
-            if (!Q.IsReady() && etarget != null && e && _isUlting != true)
+            if (!Q.IsReady() && etarget != null && e && _isUlting != true && etarget.Position.IsInRange(d, W.Range))
+
             {
-                E.Cast(etarget.Position);
+
+               E.Cast(GetBestDaggerPoint(d, etarget));
             }
+            else if(!Q.IsReady() && etarget != null && _isUlting != true)
 
             if (W.IsReady() && wtarget != null && _isUlting != true)
             {
@@ -54,11 +58,31 @@ namespace HMKatarina.Modes
             }
 
 
-            if (r && rtarget != null && _isUlting != true && !E.IsReady() && !W.IsReady() )
+            if (r && rtarget != null && _isUlting != true && !E.IsReady() && !W.IsReady())
             {
                 R.Cast(rtarget);
 
             }
+
+
+
+
+
+
+            /*if (E.IsReady() && etarget.IsInRange(Player.Position, E.Range) && etarget != null)
+            {
+
+                if (etarget.Position.IsInRange(d, W.Range)) E.Cast(GetBestDaggerPoint(d, etarget));
+                else if (Player.Distance(etarget) >= W.Range && etarget != null && d != null)
+                    E.Cast(etarget.Position);
+            }
+
+
+          */
+
+
+         // EWQR *
+
 
 
             //----------------------------------------------------------------------------------------------------------------------------------//

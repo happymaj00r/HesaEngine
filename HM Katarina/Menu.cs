@@ -5,6 +5,7 @@ namespace HMKatarina
     internal class MenuLoader
     {
         public static Menu MainMenu,
+            ItemActivatorMenu,
             ComboMenu,
             HarassMenu,
             LastHitMenu,
@@ -34,6 +35,7 @@ namespace HMKatarina
             LaneClearMenu = MainMenu.AddSubMenu("Lane Clear Menu");
             LaneClearMenu.Add(new MenuCheckbox("useQLC", "Use Q", true));
             LaneClearMenu.Add(new MenuCheckbox("useELC", "Use E", true));
+            LaneClearMenu.Add(new MenuCheckbox("useWLC", "Use E", true));
 
             /* Drawings Section */
             DrawingMenu = MainMenu.AddSubMenu("Drawings Menu");
@@ -46,6 +48,9 @@ namespace HMKatarina
             /* Killsteal Section */
             KillstealMenu = MainMenu.AddSubMenu("Killsteal Menu");
             KillstealMenu.Add(new MenuCheckbox("useKS", "Enable KillSteall", true));
+
+            ItemActivatorMenu = MainMenu.AddSubMenu("Flee Menu");
+            ItemActivatorMenu.Add(new MenuCheckbox("useG", "Use Hextech-Gunblade", true));
 
 
             /* Flee Section */
