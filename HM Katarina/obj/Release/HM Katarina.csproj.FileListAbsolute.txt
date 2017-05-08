@@ -1,0 +1,18 @@
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\HMKatarina.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\HMKatarina.pdb
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\HesaEngine.Core.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\mscorlib.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\SharpDX.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\fasmdll_managed.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\SharpDX.DirectInput.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\fasmdll_managed.pdb
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\de\mscorlib.resources.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\normidna.nlp
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\normnfc.nlp
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\normnfd.nlp
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\normnfkc.nlp
+C:\Users\HappyMajor\RiderProjects\HM Katarina\bin\Release\normnfkd.nlp
+C:\Users\HappyMajor\RiderProjects\HM Katarina\obj\Release\HM Katarina.csprojResolveAssemblyReference.cache
+C:\Users\HappyMajor\RiderProjects\HM Katarina\obj\Release\HMKatarina.dll
+C:\Users\HappyMajor\RiderProjects\HM Katarina\obj\Release\HMKatarina.pdb
