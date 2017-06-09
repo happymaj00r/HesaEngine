@@ -75,7 +75,7 @@ namespace Xin
         
         
         
-        private static void AfterAttack(AttackableUnit sender, AttackableUnit ArgsTarget)
+       public static void AfterAttack(AttackableUnit sender, AttackableUnit ArgsTarget)
        {
            
             if (!sender.IsMe || ObjectManager.Me.IsDead )
@@ -101,6 +101,8 @@ namespace Xin
                 } 
             }
         }
+        
+        
 
         private static void Game_OnTick()
         {
@@ -141,11 +143,11 @@ namespace Xin
                 Lasthit.Initialize();
             }
 
-            /* JUNGLE CLEAR
+            
             if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.JungleClear))
             {
-                Jungleclear.ActivatedJungleClear();
-            } TODO: IMPLEMENT */
+                JungleClear.ActivatedJungle();
+            } 
 
 
             

@@ -9,53 +9,58 @@ namespace Xin.Modes
     public class JungleClear
     {
 
-        public static void ActivatedLaneClear()
+        public static void ActivatedJungle()
         {
 
-            var q = LaneClearMenu.Get<MenuCheckbox>("useQV").Checked && Q.IsReady();
-            var e = LaneClearMenu.Get<MenuCheckbox>("useEV").Checked && E.IsReady();
-            var w = LaneClearMenu.Get<MenuCheckbox>("useWV").Checked && W.IsReady();
+            var q = JungleClearMenu.Get<MenuCheckbox>("useQV").Checked && Q.IsReady();
+            var e = JungleClearMenu.Get<MenuCheckbox>("useEV").Checked && E.IsReady();
+            var w = JungleClearMenu.Get<MenuCheckbox>("useWV").Checked && W.IsReady();
 
 
 
-            var minion = ObjectManager.MinionsAndMonsters.NeutralCamps.Where(x => x.IsValidTarget(Q.Range));
+            var minion = ObjectManager.MinionsAndMonsters.NeutralCamps.Where(x => x.IsValidTarget(E.Range));
 
             foreach (var m in minion)
             {
-                if ( m.IsValidTarget() && !m.IsDead && e)
+                if (m.IsValidTarget() && !m.IsDead)
                 {
-                 
-                            
-                            {
-                                E.Cast(m);
-                            }
-                
-                }
-                
-                
-                if ( m.IsValidTarget() && !m.IsDead && q)
-                {
-                 
-                            
+
+
+
+                    if (m != null && m.IsValidTarget() && !m.IsDead && e )
                     {
-                        Q.Cast();
+
+
+                        {
+                            E.Cast(m);
+                        }
+
                     }
-                
-                }
-                
-                if ( m.IsValidTarget() && !m.IsDead && w)
-                {
-                 
-                            
+
+
+                    if (m != null && m.IsValidTarget() && !m.IsDead && q )
                     {
-                        W.Cast();
+
+
+                        {
+                            Q.Cast();
+                        }
+
                     }
-                
+
+                    if (m != null && m.IsValidTarget() && !m.IsDead && w )
+                    {
+
+
+                        {
+                            W.Cast();
+                        }
+
+                    }
+
                 }
-                
-                
-                
-                
+
+
             }
         }
     }

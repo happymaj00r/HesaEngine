@@ -34,7 +34,7 @@ namespace Xin.Modes
             var wtarget = TargetSelector.GetTarget(W.Range);
             var rtarget = TargetSelector.GetTarget(R.Range);
             var etarget = TargetSelector.GetTarget(E.Range);
-            var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(ee => ee.IsValidTarget(R.Range) && Functions.MyHero.GetSpellDamage(ee, SpellSlot.R) + Functions.MyHero.GetSpellDamage(ee, SpellSlot.R) + 100 >= ee.Health);
+            var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(ee => ee.IsValidTarget(R.Range) && Functions.MyHero.GetSpellDamage(ee, SpellSlot.R) + Functions.MyHero.GetSpellDamage(ee, SpellSlot.R)>= ee.Health);
            
 
              
