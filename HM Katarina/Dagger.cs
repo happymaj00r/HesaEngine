@@ -21,8 +21,9 @@ namespace HMKatarina
         public static Vector3 GetClosestDagger()
         {
             var dagger = GetDaggers();
-            if (!dagger.Any() || dagger == null || dagger.Count() <= 0) return new Vector3();
+            if (dagger == null || !dagger.Any() || dagger.Count() <= 0) return new Vector3();
             var t = dagger.Where(p => p.Distance(Player) >= 125).OrderBy(p => p.Distance(Player.Position)).FirstOrDefault();
+           
             return t == null ? new Vector3() : t.Position;
 
            

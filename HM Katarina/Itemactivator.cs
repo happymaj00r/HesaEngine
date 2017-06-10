@@ -24,7 +24,7 @@ namespace HMKatarina
             if (ItemActivatorMenu.Get<MenuCheckbox>("useG").Checked)
 
             {
-                if (Hextechgunblade.IsOwned() && Hextechgunblade.IsReady() && Orb.ActiveMode == Orbwalker.OrbwalkingMode.Combo)
+                if (Hextechgunblade.IsOwned() && Hextechgunblade.IsReady() && Orb.ActiveMode == Orbwalker.OrbwalkingMode.Combo && !_isUlting)
                 {
                    
                     

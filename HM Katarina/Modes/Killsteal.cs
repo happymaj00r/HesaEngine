@@ -13,7 +13,7 @@ namespace HMKatarina.Modes
     {
         public static void ActivateKS()
         {
-            var d = Dagger.GetClosestDagger();
+            
 
             if (KillstealMenu.Get<MenuCheckbox>("useKS").Checked)
             {
@@ -42,10 +42,10 @@ namespace HMKatarina.Modes
                     var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(e => e.IsValidTarget(E.Range) && Functions.MyHero.GetSpellDamage(e, SpellSlot.E) + Functions.MyHero.GetAutoAttackDamage(e) + 50 >= e.Health);
                     if (Functions.IsTargetValidWithRange(_Target, E.Range))
                     {
-                        if (_Target.Position.IsInRange(d, W.Range))
+                        if (E.IsReady())
                         {
                             _isUlting = false;
-                            E.Cast(GetBestDaggerPoint(d, _Target));
+                            E.Cast(_Target.Position);
                         }
                         else
                         {

@@ -1,12 +1,8 @@
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\HMKatarina.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\HMKatarina.pdb
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\HesaEngine.Core.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\mscorlib.dll
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\SharpDX.dll
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\fasmdll_managed.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\SharpDX.DirectInput.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\SharpDX.Direct3D9.dll
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\fasmdll_managed.pdb
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\de\mscorlib.resources.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\normidna.nlp
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\normnfc.nlp
@@ -37,3 +33,8 @@ C:\Users\HappyMajor\Desktop\HesaEngine-master (1)\HesaEngine-master\HM Katarina\
 C:\Users\HappyMajor\Desktop\HesaEngine-master (1)\HesaEngine-master\HM Katarina\bin\Debug\SharpDX.xml
 C:\Users\HappyMajor\Desktop\HesaEngine-master (1)\HesaEngine-master\HM Katarina\bin\Debug\SharpDX.DirectInput.xml
 C:\Users\HappyMajor\Desktop\HesaEngine-master (1)\HesaEngine-master\HM Katarina\bin\Debug\SharpDX.Direct3D9.xml
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\HesaEngine.Wrapper.dll
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\Runtime.dll
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\SharpDX.xml
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\HM Katarina\bin\Debug\SharpDX.Direct3D9.xml

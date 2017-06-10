@@ -27,7 +27,7 @@ namespace HMKatarina.Modes
                     Q.Cast(m);
                 }
 
-                if (e && m.IsMinion && m.IsValidTarget())
+                if (e && m.IsMinion && m.IsValidTarget() && !m.Position.IsUnderEnemyTurret())
                 {
                     if (m.Position.IsInRange(d, W.Range))
                     {

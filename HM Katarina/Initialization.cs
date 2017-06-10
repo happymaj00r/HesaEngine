@@ -21,7 +21,7 @@ namespace HMKatarina
 
         public string Name => "HM DaqqerQueen";
 
-        public string Version => "1.7.0";
+        public string Version => "1.7.1";
 
         public string Author => "HappyMajor";
 
@@ -29,7 +29,7 @@ namespace HMKatarina
 
         public static AIHeroClient Player = ObjectManager.Player;
 
-        private static AIHeroClient _User = Player;
+       
 
         public static bool Rult;
 
@@ -40,7 +40,7 @@ namespace HMKatarina
 
             Game.OnGameLoaded += () =>
             {
-                Core.DelayAction(Game_OnGameLoaded, new Random().Next(2500, 3001));
+                Game_OnGameLoaded();
             };
 
         }
@@ -106,7 +106,7 @@ namespace HMKatarina
 
 
 
-
+                 PermaActive.PermaActivee();
 
 
 
