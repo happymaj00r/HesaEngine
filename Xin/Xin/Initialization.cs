@@ -73,36 +73,76 @@ namespace Xin
         
     
         
-        
-        
-       public static void AfterAttack(AttackableUnit sender, AttackableUnit ArgsTarget)
-       {
-           
-            if (!sender.IsMe || ObjectManager.Me.IsDead )
-                return;
+        public static Item THydra;
+        public static Item RHydra;
+        public static Item Tiamat;
 
-            if (ArgsTarget == null || ArgsTarget.IsDead || ArgsTarget.Health <= 0)
-                return;
-
-            if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo) && ComboMenu.Get<MenuCheckbox>("useQA").Checked )
+        public static void AfterAttack(AttackableUnit sender, AttackableUnit ArgsTarget)
+        {
+            if (ComboMenu.Get<MenuCheckbox>("item").Checked)
             {
-                var target = ArgsTarget as AIHeroClient;
+                var ttarget = TargetSelector.GetTarget(385);
+                var rtarget = TargetSelector.GetTarget(385);
+                var tiamattarget = TargetSelector.GetTarget(385);
+                THydra = new Item(3748, 385);
+                RHydra = new Item(3074, 385);
+                Tiamat = new Item(3077, 385);
+                if (!sender.IsMe || ObjectManager.Me.IsDead)
+                    return;
 
-                if (target != null && !target.IsDead )
+                if (ArgsTarget == null || ArgsTarget.IsDead || ArgsTarget.Health <= 0)
+                    return;
+
+                if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo))
                 {
-                    
+                    var target = ArgsTarget as AIHeroClient;
+
+                    if (target != null && !target.IsDead)
+                    {
+
+                        if (THydra.IsOwned() && THydra.IsReady())
+                        {
+                            THydra.Cast(ttarget);
+                            
+                        }
+                        if (RHydra.IsOwned() && RHydra.IsReady())
+                        {
+                            RHydra.Cast(rtarget);
+                        }
+                        if (Tiamat.IsOwned() && Tiamat.IsReady())
+                        {
+                            Tiamat.Cast(tiamattarget);
+                        }
+                    }
+                }
+            }
+
+                if (!sender.IsMe || ObjectManager.Me.IsDead)
+                    return;
+
+                if (ArgsTarget == null || ArgsTarget.IsDead || ArgsTarget.Health <= 0)
+                    return;
+
+                if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo) &&
+                    ComboMenu.Get<MenuCheckbox>("useQA").Checked)
+                {
+                    var target = ArgsTarget as AIHeroClient;
+
+                    if (target != null && !target.IsDead)
+                    {
+
                         if (Q.IsReady() && target.IsValid())
                         {
                             Q.Cast();
-                          Orbwalker.ResetAutoAttackTimer();
+                            Orbwalker.ResetAutoAttackTimer();
 
                         }
-                    
-                } 
-            }
+
+                    }
+                }
+            
+
         }
-        
-        
 
         private static void Game_OnTick()
         {

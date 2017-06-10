@@ -31,6 +31,7 @@ namespace Xin
             ComboMenu.Add(new MenuSlider("UseEauto", "Use R at X% Health", 0,100,0));          
             ComboMenu.Add(new MenuCheckbox("useRA", "Use Always R ", true));
             ComboMenu.Add(new MenuCheckbox("useRAK", "Use R if killable", true));
+            ComboMenu.Add(new MenuCheckbox("item", "Use Items", true));
            
            
 
