@@ -19,7 +19,7 @@ namespace Kassadin
         public static void LoadMenu()
         {
             MainMenu = Menu.AddMenu("VoidKing");
-            Orb = new Orbwalker.OrbwalkerInstance(MainMenu.AddSubMenu("Orbwalker"));
+            
 
             /* Combo Section */
             ComboMenu = MainMenu.AddSubMenu("Combo Menu");

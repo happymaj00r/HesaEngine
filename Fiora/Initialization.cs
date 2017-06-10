@@ -9,8 +9,9 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.Globalization;
+using Fiora.Modes;
 using HesaEngine.SDK.Events;
-
+using static Fiora.Modes.Combo;
 namespace Fiora
 {
     public class Initialization : IScript
@@ -18,17 +19,15 @@ namespace Fiora
 
 
 
-        public string Name => "HM DaqqerQueen";
+        public string Name => "Fiora";
 
         public string Version => "1.5.1";
 
         public string Author => "HappyMajor";
 
-        public static Orbwalker.OrbwalkerInstance Orb;
+        public static Orbwalker.OrbwalkerInstance Orb => Core.Orbwalker;
 
         public static AIHeroClient Player = ObjectManager.Player;
-
-        private static AIHeroClient _User = Player;
 
         public static bool Rult;
 
@@ -46,7 +45,7 @@ namespace Fiora
 
         private void Game_OnGameLoaded()
         {
-            if (ObjectManager.Me.Hero == Champion.Katarina)
+            if (ObjectManager.Me.Hero == Champion.Fiora)
             {
 
 
@@ -55,7 +54,7 @@ namespace Fiora
 
 
 
-                Chat.Print("Now u can call yourself DaqqerQueen\r\n" +
+                Chat.Print("Now u can call yourself Fiora\r\n" +
                            "Thanks for using my Script in love HappyMajor " + Version);
             }
             else
@@ -77,12 +76,12 @@ namespace Fiora
 
 
 
-            if (KillstealMenu.Get<MenuCheckbox>("useKS").Checked)
-            {
-                Killsteal.ActivateKS();
-            }
+            /*if (KillstealMenu.Get<MenuCheckbox>("useKS").Checked)
+           {
+               Killsteal.ActivateKS();
+           }
 
-            /* COMBO */
+           /* COMBO */
             if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo))
             {
                 Combo.ActivatedCombo();
@@ -101,22 +100,22 @@ namespace Fiora
             }
 
             /* LAST HIT */
-            if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.LastHit))
-            {
-                LastHit.Initialize();
-            }
+            /*if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.LastHit))
+           {
+               LastHit.Initialize();
+           }
 
-            /* JUNGLE CLEAR
-            if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.JungleClear))
-            {
-                Jungleclear.ActivatedJungleClear();
-            } TODO: IMPLEMENT */
+           /* JUNGLE CLEAR
+           if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.JungleClear))
+           {
+               Jungleclear.ActivatedJungleClear();
+           } TODO: IMPLEMENT */
 
             /* FLEE */
-            if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Flee))
-            {
-                Flee.FleeActivate();
-            }
+           // if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Flee))
+            //{
+             //   Flee.FleeActivate();
+           // }
         }
 
     }

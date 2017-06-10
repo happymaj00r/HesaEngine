@@ -49,16 +49,7 @@ namespace Kassadin.Modes
                 R.Cast(rtarget.Position);
             }
 
-            if (w && wtarget != null)
-            {
-
-                {
-
-                    W.Cast();
-                }
-
-
-            }
+            
 
 
             if (e && etarget != null )

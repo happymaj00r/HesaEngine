@@ -27,7 +27,7 @@ namespace Kassadin
 
         public string Author => "HappyMajor";
 
-        public static Orbwalker.OrbwalkerInstance Orb;
+        public static Orbwalker.OrbwalkerInstance Orb => Core.Orbwalker;
 
         public static AIHeroClient Player = ObjectManager.Player;
 
@@ -58,7 +58,8 @@ namespace Kassadin
 
                 Game.OnTick += Game_OnTick;
 
-
+                Orbwalker.AfterAttack += AfterAttack;
+                
                 Chat.Print("Now u can call yourself VoidKing\r\n" +
                            "Thanks for using my Script in love HappyMajor " + Version);
             }
@@ -68,8 +69,33 @@ namespace Kassadin
             }
         }
 
+        private static void AfterAttack(AttackableUnit sender, AttackableUnit ArgsTarget)
+        {
 
+            if (!sender.IsMe || ObjectManager.Me.IsDead)
+                return;
 
+            if (ArgsTarget == null || ArgsTarget.IsDead || ArgsTarget.Health <= 0)
+                return;
+
+            if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo))
+            {
+                var target = ArgsTarget as AIHeroClient;
+
+                if (target != null && !target.IsDead)
+                {
+                    if (ComboMenu.Get<MenuCheckbox>("useW").Checked)
+                    {
+                        if (W.IsReady() && target.IsValid())
+                        {
+                            W.Cast();
+                            Orbwalker.ResetAutoAttackTimer();
+
+                        }
+                    }
+                }
+            }
+        }
 
         private static void Game_OnTick()
         {

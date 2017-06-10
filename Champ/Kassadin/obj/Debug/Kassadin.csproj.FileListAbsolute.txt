@@ -14,6 +14,8 @@ C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\bin\Debug\normnfk
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\obj\Debug\Kassadin.csprojResolveAssemblyReference.cache
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\obj\Debug\Kassadin.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\obj\Debug\Kassadin.pdb
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\bin\Debug\Newtonsoft.Json.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\bin\Debug\HesaEngine.Wrapper.dll
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\bin\Debug\Newtonsoft.Json.xml
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\bin\Debug\Runtime.dll
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\bin\Debug\SharpDX.xml
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\bin\Debug\SharpDX.DirectInput.xml
+C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Champ\Kassadin\bin\Debug\SharpDX.Direct3D9.xml
