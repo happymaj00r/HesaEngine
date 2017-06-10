@@ -42,7 +42,10 @@ namespace Xin
             LaneClearMenu.Add(new MenuCheckbox("useQLC", "Use Q", true));
             LaneClearMenu.Add(new MenuCheckbox("useELC", "Use E", true));
            
-
+            JungleClearMenu = MainMenu.AddSubMenu("Lane Clear Menu");
+            JungleClearMenu.Add(new MenuCheckbox("useQV", "Use Q", true));
+            JungleClearMenu.Add(new MenuCheckbox("useEV", "Use E", true));
+            JungleClearMenu.Add(new MenuCheckbox("useWV", "Use W", true));
             
 
             /* Killsteal Section */

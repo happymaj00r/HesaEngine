@@ -52,6 +52,7 @@
     <Compile Include="Menu.cs" />
     <Compile Include="Modes\Combo.cs" />
     <Compile Include="Modes\Functions.cs" />
+    <Compile Include="Modes\JungleClear.cs" />
     <Compile Include="Modes\Killsteal.cs" />
     <Compile Include="Modes\Laneclear.cs" />
     <Compile Include="Modes\Lasthit.cs" />
