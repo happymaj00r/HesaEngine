@@ -37,6 +37,35 @@ namespace Xin.Modes
         {
             return target != null && target.IsValidTarget(range);
         }
+        
+        
+        public static float GetUnitTotalAD(Obj_AI_Base unit)
+        {
+            return unit.BaseAttackDamage + unit.FlatBaseAttackDamageMod;
+        }
+
+        public static double GetWdmg(Obj_AI_Base target)
+        {
+            int qedmg = 0;
+            if (ObjectManager.Player.GetSpell(SpellSlot.R).Level == 1)
+            {
+                qedmg = 75;
+            }
+            if (ObjectManager.Player.GetSpell(SpellSlot.R).Level == 2)
+            {
+                qedmg = 175;
+            }
+            if (ObjectManager.Player.GetSpell(SpellSlot.R).Level == 3)
+            {
+                qedmg = 275;
+            }
+
+            double calc = GetUnitTotalAD(ObjectManager.Me) * 1.0;
+            double full = calc + qedmg;
+            double damage = ObjectManager.Player.CalcDamage(target, Damage.DamageType.Physical, full);
+            return damage;
+
+        }
 
     }
 }

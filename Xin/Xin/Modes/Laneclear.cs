@@ -32,7 +32,7 @@ namespace Xin.Modes
 
 
 
-                   E.Cast(m.Position);
+                   E.Cast(m);
 
                 }
 

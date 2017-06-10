@@ -12,11 +12,11 @@ namespace Xin
         public static void LoadSpells()
         {
             Q = new Spell(SpellSlot.Q, Player.GetAutoAttackRange(Player), TargetSelector.DamageType.Physical);
-            W = new Spell(SpellSlot.W, 600, TargetSelector.DamageType.Magical);
+            W = new Spell(SpellSlot.W, Player.GetAutoAttackRange(Player), TargetSelector.DamageType.Physical);
             E = new Spell(SpellSlot.E, 650, TargetSelector.DamageType.Magical);
-            R = new Spell(SpellSlot.R, 0, TargetSelector.DamageType.Physical );
+            R = new Spell(SpellSlot.R, 500, TargetSelector.DamageType.Physical );
 
-            W.SetTargetted(0.5f, 1500f);
+           
             E.SetTargetted(0.2f,  1500);
            
 

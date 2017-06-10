@@ -36,6 +36,9 @@
     <Reference Include="HesaEngine.Core, Version=1.0.0.0, Culture=neutral">
       <HintPath>..\..\..\..\..\Desktop\HesaEngine\Dependencies\HesaEngine.Core.dll</HintPath>
     </Reference>
+    <Reference Include="HesaEngine.Core, Version=1.0.0.0, Culture=neutral">
+      <HintPath>..\..\..\..\..\Desktop\HesaEngine\Dependencies\HesaEngine.Core.dll</HintPath>
+    </Reference>
     <Reference Include="SharpDX, Version=2.6.3.0, Culture=neutral, PublicKeyToken=b4dcf0f35e5521f1">
       <HintPath>..\..\..\..\..\Desktop\HesaEngine\Dependencies\SharpDX.dll</HintPath>
     </Reference>
@@ -48,7 +51,6 @@
     <Compile Include="Initialization.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="Modes\Combo.cs" />
-    <Compile Include="Modes\Flee.cs" />
     <Compile Include="Modes\Functions.cs" />
     <Compile Include="Modes\Killsteal.cs" />
     <Compile Include="Modes\Laneclear.cs" />

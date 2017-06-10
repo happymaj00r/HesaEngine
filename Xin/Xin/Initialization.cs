@@ -21,7 +21,7 @@ namespace Xin
 
 
 
-        public string Name => "VoidKing";
+        public string Name => "XinZhao";
 
         public string Version => "1.0.0";
 
@@ -49,7 +49,7 @@ namespace Xin
 
         private void Game_OnGameLoaded()
         {
-            if (ObjectManager.Me.Hero == Champion.Xin)
+            if (ObjectManager.Me.Hero == Champion.XinZhao)
             {
 
                 LoadMenu();
@@ -78,27 +78,26 @@ namespace Xin
         private static void AfterAttack(AttackableUnit sender, AttackableUnit ArgsTarget)
        {
            
-            if (!sender.IsMe || ObjectManager.Me.IsDead)
+            if (!sender.IsMe || ObjectManager.Me.IsDead )
                 return;
 
             if (ArgsTarget == null || ArgsTarget.IsDead || ArgsTarget.Health <= 0)
                 return;
 
-            if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo)&& ComboMenu.Get<MenuCheckbox>("useQA").Checked )
+            if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo) && ComboMenu.Get<MenuCheckbox>("useQA").Checked )
             {
                 var target = ArgsTarget as AIHeroClient;
 
-                if (target != null && !target.IsDead)
+                if (target != null && !target.IsDead )
                 {
-                    if (ComboMenu.Get<MenuCheckbox>("useW").Checked)
-                    {
+                    
                         if (Q.IsReady() && target.IsValid())
                         {
                             Q.Cast();
                           Orbwalker.ResetAutoAttackTimer();
 
                         }
-                    }
+                    
                 } 
             }
         }
@@ -149,10 +148,7 @@ namespace Xin
             } TODO: IMPLEMENT */
 
 
-            if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Flee))
-            {
-                Flee.FleeActivate();
-            }
+            
         }
 
     }

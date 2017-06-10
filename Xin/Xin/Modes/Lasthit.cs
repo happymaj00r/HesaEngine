@@ -12,8 +12,12 @@ namespace Xin.Modes
     public class Lasthit
     
     {
+        public static void Initialize()
+        {
+            
+        }
         
-        static float GetUnitTotalAD(Obj_AI_Base unit)
+        /*static float GetUnitTotalAD(Obj_AI_Base unit)
         {
             return unit.BaseAttackDamage + unit.FlatBaseAttackDamageMod;
         }
@@ -111,5 +115,5 @@ namespace Xin.Modes
             }
             
         }
-    }
+   */ }
 }

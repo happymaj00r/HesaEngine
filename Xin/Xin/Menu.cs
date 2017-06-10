@@ -3,7 +3,7 @@
 using HesaEngine.SDK;
 namespace Xin
 {
-    internal class MenuLoader
+     internal class MenuLoader
     {
         public static Menu MainMenu,
             ItemActivatorMenu,
@@ -23,17 +23,19 @@ namespace Xin
 
             /* Combo Section */
             ComboMenu = MainMenu.AddSubMenu("Combo Menu");
-            ComboMenu.Add(new MenuCheckbox("useQ", "Use Q", true));
+            ComboMenu.Add(new MenuCheckbox("useQ", "Use Normal Q", true));
+            ComboMenu.Add(new MenuCheckbox("useQA", "Use Q AA cancel ", true));
             ComboMenu.Add(new MenuCheckbox("useW", "Use W", true));
             ComboMenu.Add(new MenuCheckbox("useE", "Use E", true));
-            ComboMenu.Add(new MenuCheckbox("useR", "Use R ", true));
-            ComboMenu.Add(new MenuSlider("UseEauto", "Use R at X% Health", 0,100,0));
-            ComboMenu.Add(new MenuCheckbox("useQA", "Use Q AA cancel ", true));
+            ComboMenu.Add(new MenuCheckbox("useR", "Use R at x% Healht ", true));
+            ComboMenu.Add(new MenuSlider("UseEauto", "Use R at X% Health", 0,100,0));          
+            ComboMenu.Add(new MenuCheckbox("useRA", "Use Always R ", true));
+            ComboMenu.Add(new MenuCheckbox("useRAK", "Use R if killable", true));
+           
+           
 
             /* Last Hit Section */
-            LastHitMenu = MainMenu.AddSubMenu("Last Hit Menu");
-            LastHitMenu.Add(new MenuCheckbox("useQLH", "Use Q", true));
-            LastHitMenu.Add(new MenuCheckbox("useQAUTO", "Auto Q Not working", true));
+            
 
             /* Lane Clear Section */
             LaneClearMenu = MainMenu.AddSubMenu("Lane Clear Menu");
@@ -52,9 +54,7 @@ namespace Xin
 
 
             /* Flee Section */
-            FleeMenu = MainMenu.AddSubMenu("Flee Menu");
-
-            FleeMenu.Add(new MenuCheckbox("useRFlee", "Use W", true));
+            
 
         }
     }

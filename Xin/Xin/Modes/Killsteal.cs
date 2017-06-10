@@ -18,29 +18,7 @@ namespace Xin.Modes
         {
 
 
-            if (KillstealMenu.Get<MenuCheckbox>("useQS").Checked)
-            {
-                if (Functions.CanUseSpell(SpellSlot.Q))
-
-                {
-                    var _Target =
-                        ObjectManager.Heroes.Enemies.FirstOrDefault(
-                            e => e.IsValidTarget(Q.Range) &&
-                                 Functions.MyHero.GetSpellDamage(e, SpellSlot.Q) +
-
-
-                                 20 >= e.Health);
-                    if (Functions.IsTargetValidWithRange(_Target, Q.Range))
-                    {
-
-
-
-
-                        Q.Cast(_Target);
-                        
-
-                    }
-                }
+            
                 
                 if (Functions.CanUseSpell(SpellSlot.E))
 
@@ -67,7 +45,7 @@ namespace Xin.Modes
 
             }
         }
-    }
+    
 
 
 
