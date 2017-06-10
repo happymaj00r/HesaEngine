@@ -61,7 +61,7 @@ namespace Xin
 
                 Orbwalker.AfterAttack += AfterAttack;
                 
-                Chat.Print("Now u can call yourself StackMaster\r\n" +
+                Chat.Print("\r\n" +
                            "Thanks for using my Script in love HappyMajor " + Version);
             }
             else
