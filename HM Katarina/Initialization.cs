@@ -8,7 +8,7 @@ using HesaEngine.SDK.GameObjects;
 using HesaEngine.SDK.Enums;
 using HesaEngine.SDK.Args;
 using static HesaEngine.SDK.Logger;
-
+using static HMKatarina.Itemactivator;
 // >> FUCK THIS!
 
 namespace HMKatarina
@@ -21,11 +21,11 @@ namespace HMKatarina
 
         public string Name => "HM DaqqerQueen";
 
-        public string Version => "1.5.1";
+        public string Version => "1.7.0";
 
         public string Author => "HappyMajor";
 
-        public static Orbwalker.OrbwalkerInstance Orb;
+        public static Orbwalker.OrbwalkerInstance Orb => Core.Orbwalker;
 
         public static AIHeroClient Player = ObjectManager.Player;
 
@@ -150,6 +150,8 @@ namespace HMKatarina
             {
                 Flee.FleeActivate();
             }
+
+           Itemactivator.ItemActivator();
         }
 
     }

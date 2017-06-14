@@ -1,10 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization.Formatters;
 using HesaEngine.SDK;
 using HesaEngine.SDK.GameObjects;
 using SharpDX;
 using static HMKatarina.Initialization;
 using static HesaEngine.SDK.Geometry;
+using static HMKatarina.MenuLoader;
+using static HMKatarina.SpellLoader;
 namespace HMKatarina
 
 {
@@ -21,14 +24,18 @@ namespace HMKatarina
             if (!dagger.Any() || dagger == null || dagger.Count() <= 0) return new Vector3();
             var t = dagger.Where(p => p.Distance(Player) >= 125).OrderBy(p => p.Distance(Player.Position)).FirstOrDefault();
             return t == null ? new Vector3() : t.Position;
+
+           
         }
 
         public static Vector3 GetBestDaggerPoint(Vector3 position, Obj_AI_Base target)
         {
             if (target.Position.IsInRange(position, 150)) return position;
             return position.Extend(target, 150);
+            
+            
         }
-
+         
     }
 }
 

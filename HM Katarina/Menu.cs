@@ -18,7 +18,7 @@ namespace HMKatarina
         public static void LoadMenu()
         {
             MainMenu = Menu.AddMenu("HM Katarina");
-            Orb = new Orbwalker.OrbwalkerInstance(MainMenu.AddSubMenu("Orbwalker"));
+            
 
             /* Combo Section */
             ComboMenu = MainMenu.AddSubMenu("Combo Menu");
@@ -26,7 +26,7 @@ namespace HMKatarina
             ComboMenu.Add(new MenuCheckbox("useW", "Use W", true));
             ComboMenu.Add(new MenuCheckbox("useE", "Use E", true));
             ComboMenu.Add(new MenuCheckbox("useR", "Use R ", true));
-
+            ComboMenu.Add(new MenuCheckbox("useD", "Use Jump to Dagger ", true));
             /* Last Hit Section */
             LastHitMenu = MainMenu.AddSubMenu("Last Hit Menu");
             LastHitMenu.Add(new MenuCheckbox("useQLH", "Use Q", true));
@@ -56,6 +56,7 @@ namespace HMKatarina
             /* Flee Section */
             FleeMenu = MainMenu.AddSubMenu("Flee Menu");
             FleeMenu.Add(new MenuCheckbox("useWFlee", "Use W", true));
+            FleeMenu.Add(new MenuCheckbox("useEFlee", "Use E", true));
 
         }
     }

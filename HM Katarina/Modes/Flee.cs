@@ -12,6 +12,7 @@ namespace HMKatarina.Modes
 
 
             var w = FleeMenu.Get<MenuCheckbox>("useWFlee").Checked && W.IsReady();
+            var e = FleeMenu.Get<MenuCheckbox>("useEFlee").Checked && E.IsReady();
 
             if (w)
             {
@@ -19,7 +20,13 @@ namespace HMKatarina.Modes
 
             }
 
+            var Mpos = Game.CursorPosition;
 
+            if (e)
+            {
+
+                E.Cast(Mpos);
+            }
         }
     }
 }

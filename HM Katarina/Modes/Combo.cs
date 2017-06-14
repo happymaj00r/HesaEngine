@@ -1,4 +1,6 @@
-﻿using HesaEngine.SDK;
+﻿using System.Linq;
+using HesaEngine.SDK;
+using SharpDX;
 using static HMKatarina.MenuLoader;
 using static HMKatarina.SpellLoader;
 using static HMKatarina.MenuLoader;
@@ -18,6 +20,7 @@ namespace HMKatarina.Modes
             var w = ComboMenu.Get<MenuCheckbox>("useW").Checked && W.IsReady();
             var e = ComboMenu.Get<MenuCheckbox>("useE").Checked && E.IsReady();
             var r = ComboMenu.Get<MenuCheckbox>("useR").Checked && R.IsReady();
+            var dd = ComboMenu.Get<MenuCheckbox>("useD").Checked;
             var qtarget = TargetSelector.GetTarget(Q.Range);
             var wtarget = TargetSelector.GetTarget(W.Range);
             var rtarget = TargetSelector.GetTarget(R.Range);
@@ -28,6 +31,7 @@ namespace HMKatarina.Modes
 
             //-----------------------------------------Basic Combo----------------------------------------------------------------------------//
             var d = Dagger.GetClosestDagger();
+            var dagger = GetDaggers();
 
             if (q && _isUlting != true)
             {
@@ -37,14 +41,22 @@ namespace HMKatarina.Modes
                 }
 
             }
-            if (!Q.IsReady() && etarget != null && e && _isUlting != true && etarget.Position.IsInRange(d, W.Range))
+            if (!Q.IsReady() && etarget != null && e && _isUlting != true && etarget.Position.IsInRange(d, W.Range) && dd)
 
             {
 
                E.Cast(GetBestDaggerPoint(d, etarget));
             }
-            else if(!Q.IsReady() && etarget != null && _isUlting != true)
+            if (etarget != null && e && _isUlting != true && !dd)
+            {
+                E.Cast(etarget.Position);
+            }
 
+            if (!dagger.Any() && !Q.IsReady() && e && etarget != null &&  _isUlting != true)
+            {
+                E.Cast(etarget.Position);
+            }
+            
             if (W.IsReady() && wtarget != null && _isUlting != true)
             {
 
@@ -67,7 +79,7 @@ namespace HMKatarina.Modes
 
 
 
-
+           
 
             /*if (E.IsReady() && etarget.IsInRange(Player.Position, E.Range) && etarget != null)
             {
