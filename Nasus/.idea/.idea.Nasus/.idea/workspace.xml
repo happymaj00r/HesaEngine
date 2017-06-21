@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Menu.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nasus/Menu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="35" column="76" lean-forward="false" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+            <state relative-caret-position="246">
+              <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
               <folding>
                 <marker date="1497123095459" expanded="false" signature="6:57" ph="..." />
                 <marker date="1497123095459" expanded="true" signature="73:2085" ph="{...}" />
@@ -27,33 +27,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Initialization.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Initialization.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Nasus/Initialization.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1080">
-              <caret line="110" column="11" lean-forward="false" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
+            <state relative-caret-position="86">
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
-                <marker date="1497122738006" expanded="true" signature="6:325" ph="..." />
-                <marker date="1497122738006" expanded="true" signature="361:3827" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="405:3825" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="819:993" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="869:981" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="1035:1638" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="1102:1514" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="1531:1628" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="1770:2612" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="2100:2602" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="2226:2587" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="2313:2569" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="2396:2547" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="2655:3818" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="2751:2819" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="2915:2983" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="2997:3167" ph="/* HARASS ... */" />
-                <marker date="1497122738006" expanded="true" signature="3245:3324" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="3400:3466" ph="{...}" />
-                <marker date="1497122738006" expanded="true" signature="3480:3671" ph="/* JUNGLE CLEAR ... */" />
-                <marker date="1497122738006" expanded="true" signature="3743:3808" ph="{...}" />
+                <marker date="1498076647977" expanded="false" signature="6:325" ph="..." />
+                <marker date="1498076647977" expanded="true" signature="361:3827" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="405:3825" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="819:993" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="869:981" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="1035:1638" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="1102:1514" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="1531:1628" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="1770:2612" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="2100:2602" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="2226:2587" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="2313:2569" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="2396:2547" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="2655:3818" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="2751:2819" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="2915:2983" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="2997:3167" ph="/* HARASS ... */" />
+                <marker date="1498076647977" expanded="true" signature="3245:3324" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="3400:3466" ph="{...}" />
+                <marker date="1498076647977" expanded="true" signature="3480:3671" ph="/* JUNGLE CLEAR ... */" />
+                <marker date="1498076647977" expanded="true" signature="3743:3808" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,7 +66,6 @@
               <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
               <folding>
                 <marker date="1497122051582" expanded="true" signature="6:321" ph="..." />
-                <marker date="1497122051582" expanded="true" signature="344:1813" ph="{...}" />
                 <marker date="1497122051582" expanded="true" signature="370:1811" ph="{...}" />
                 <marker date="1497122051582" expanded="true" signature="432:1805" ph="{...}" />
                 <marker date="1497122051582" expanded="true" signature="1271:1328" ph="{...}" />
@@ -99,7 +98,7 @@
       <file leaf-file-name="Killsteal.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nasus/Modes/Killsteal.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
+            <state relative-caret-position="480">
               <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
               <folding>
                 <marker date="1497115847927" expanded="false" signature="6:165" ph="..." />
@@ -123,7 +122,6 @@
               <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
               <folding>
                 <marker date="1497122903556" expanded="false" signature="7:119" ph="..." />
-                <marker date="1497122903556" expanded="true" signature="143:880" ph="{...}" />
                 <marker date="1497122903556" expanded="true" signature="172:878" ph="{...}" />
                 <marker date="1497122903556" expanded="true" signature="226:872" ph="{...}" />
                 <marker date="1497122903556" expanded="true" signature="554:862" ph="{...}" />
@@ -137,11 +135,10 @@
       <file leaf-file-name="Lasthit.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Nasus/Modes/Lasthit.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
+            <state relative-caret-position="1065">
               <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding>
                 <marker date="1497122302809" expanded="true" signature="6:179" ph="..." />
-                <marker date="1497122302809" expanded="true" signature="203:3901" ph="{...}" />
                 <marker date="1497122302809" expanded="true" signature="235:3899" ph="{...}" />
                 <marker date="1497122302809" expanded="true" signature="304:397" ph="{...}" />
                 <marker date="1497122302809" expanded="true" signature="456:1377" ph="{...}" />
@@ -174,9 +171,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="525">
               <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-              <folding>
-                <marker date="1497122756203" expanded="true" signature="0:964" ph="/* using HesaEngine.SDK; ... */" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -185,10 +180,9 @@
         <entry file="file://$PROJECT_DIR$/Nasus/Spells.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+              <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
               <folding>
                 <marker date="1497122967847" expanded="true" signature="6:104" ph="..." />
-                <marker date="1497122967847" expanded="true" signature="121:724" ph="{...}" />
                 <marker date="1497122967847" expanded="true" signature="159:722" ph="{...}" />
                 <marker date="1497122967847" expanded="true" signature="246:715" ph="{...}" />
               </folding>
@@ -226,11 +220,11 @@
         <option value="$PROJECT_DIR$/Nasus/Modes/Functions.cs" />
         <option value="$PROJECT_DIR$/Nasus/Modes/Combo.cs" />
         <option value="$PROJECT_DIR$/Nasus/Modes/Lasthit.cs" />
-        <option value="$PROJECT_DIR$/Nasus/Initialization.cs" />
         <option value="$PROJECT_DIR$/Nasus/PermaActive.cs" />
         <option value="$PROJECT_DIR$/Nasus/Modes/Laneclear.cs" />
         <option value="$PROJECT_DIR$/Nasus/Spells.cs" />
         <option value="$PROJECT_DIR$/Nasus/Menu.cs" />
+        <option value="$PROJECT_DIR$/Nasus/Initialization.cs" />
       </list>
     </option>
   </component>
@@ -261,6 +255,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <subPane>
           <PATH>
@@ -274,24 +269,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Nasus" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nasus (1 project)" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Nasus" />
-              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Properties" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,7 +316,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -446,12 +422,13 @@
       <option name="presentableId" value="Default" />
       <updated>1497102465362</updated>
       <workItem from="1497102467194" duration="2901000" />
-      <workItem from="1497105446736" duration="11224000" />
+      <workItem from="1497105446736" duration="11449000" />
+      <workItem from="1498076292730" duration="363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14125000" />
+    <option name="totallyTimeSpent" value="14713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -463,7 +440,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -502,6 +479,166 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Nasus/Menu.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497123095459" expanded="false" signature="6:57" ph="..." />
+            <marker date="1497123095459" expanded="true" signature="73:2085" ph="{...}" />
+            <marker date="1497123095459" expanded="true" signature="105:2083" ph="{...}" />
+            <marker date="1497123095459" expanded="true" signature="420:2077" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Initialization.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1650">
+          <caret line="110" column="11" lean-forward="false" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
+          <folding>
+            <marker date="1498076647977" expanded="false" signature="6:325" ph="..." />
+            <marker date="1498076647977" expanded="true" signature="361:3827" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="405:3825" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="819:993" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="869:981" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1035:1638" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1102:1514" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1531:1628" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1770:2612" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2100:2602" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2226:2587" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2313:2569" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2396:2547" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2655:3818" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2751:2819" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2915:2983" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2997:3167" ph="/* HARASS ... */" />
+            <marker date="1498076647977" expanded="true" signature="3245:3324" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="3400:3466" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="3480:3671" ph="/* JUNGLE CLEAR ... */" />
+            <marker date="1498076647977" expanded="true" signature="3743:3808" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Combo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <marker date="1497122051582" expanded="true" signature="6:321" ph="..." />
+            <marker date="1497122051582" expanded="true" signature="370:1811" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="432:1805" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="1271:1328" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="1367:1429" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="1469:1669" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="1724:1795" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Functions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding>
+            <marker date="1497120271248" expanded="true" signature="6:262" ph="..." />
+            <marker date="1497120271248" expanded="true" signature="285:997" ph="{...}" />
+            <marker date="1497120271248" expanded="true" signature="324:995" ph="{...}" />
+            <marker date="1497120271248" expanded="true" signature="461:515" ph="{...}" />
+            <marker date="1497120271248" expanded="true" signature="572:670" ph="{...}" />
+            <marker date="1497120271248" expanded="true" signature="735:816" ph="{...}" />
+            <marker date="1497120271248" expanded="true" signature="902:988" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Killsteal.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <marker date="1497115847927" expanded="false" signature="6:165" ph="..." />
+            <marker date="1497115847927" expanded="true" signature="188:1640" ph="{...}" />
+            <marker date="1497115847927" expanded="true" signature="229:1634" ph="{...}" />
+            <marker date="1497115847927" expanded="true" signature="275:1624" ph="{...}" />
+            <marker date="1497115847927" expanded="true" signature="353:1608" ph="{...}" />
+            <marker date="1497115847927" expanded="true" signature="424:950" ph="{...}" />
+            <marker date="1497115847927" expanded="true" signature="817:932" ph="{...}" />
+            <marker date="1497115847927" expanded="true" signature="1024:1590" ph="{...}" />
+            <marker date="1497115847927" expanded="true" signature="1437:1568" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Laneclear.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+          <folding>
+            <marker date="1497122903556" expanded="false" signature="7:119" ph="..." />
+            <marker date="1497122903556" expanded="true" signature="172:878" ph="{...}" />
+            <marker date="1497122903556" expanded="true" signature="226:872" ph="{...}" />
+            <marker date="1497122903556" expanded="true" signature="554:862" ph="{...}" />
+            <marker date="1497122903556" expanded="true" signature="626:693" ph="{...}" />
+            <marker date="1497122903556" expanded="true" signature="752:831" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Lasthit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
+          <folding>
+            <marker date="1497122302809" expanded="true" signature="6:179" ph="..." />
+            <marker date="1497122302809" expanded="true" signature="235:3899" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="304:397" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="456:1377" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="564:620" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="691:747" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="818:874" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="945:1001" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="1072:1130" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="1487:2388" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="1660:2353" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="1815:2339" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="1883:2036" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="2196:2321" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="2457:3348" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="2630:3313" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="2785:3299" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="2853:3006" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="3156:3281" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="3388:3893" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="3474:3870" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="3521:3856" ph="{...}" />
+            <marker date="1497122302809" expanded="true" signature="3661:3838" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/PermaActive.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Spells.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+          <folding>
+            <marker date="1497122967847" expanded="true" signature="6:104" ph="..." />
+            <marker date="1497122967847" expanded="true" signature="159:722" ph="{...}" />
+            <marker date="1497122967847" expanded="true" signature="246:715" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Menu.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="58" lean-forward="false" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding>
@@ -519,7 +656,6 @@
           <caret line="25" column="60" lean-forward="false" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="60" />
           <folding>
             <marker date="1497122051582" expanded="true" signature="6:321" ph="..." />
-            <marker date="1497122051582" expanded="true" signature="344:1813" ph="{...}" />
             <marker date="1497122051582" expanded="true" signature="370:1811" ph="{...}" />
             <marker date="1497122051582" expanded="true" signature="432:1805" ph="{...}" />
             <marker date="1497122051582" expanded="true" signature="1271:1328" ph="{...}" />
@@ -534,13 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <marker date="1497115306070" expanded="false" signature="6:53" ph="..." />
-            <marker date="1497115306070" expanded="true" signature="75:315" ph="{...}" />
-            <marker date="1497115306070" expanded="true" signature="101:313" ph="{...}" />
-            <marker date="1497115306070" expanded="true" signature="149:307" ph="{...}" />
-            <marker date="1497115306070" expanded="true" signature="251:301" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -560,14 +689,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Item.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Item.cs" />
     <entry file="file://$PROJECT_DIR$/Nasus/Modes/Killsteal.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -592,7 +714,6 @@
           <caret line="38" column="15" lean-forward="false" selection-start-line="38" selection-start-column="15" selection-end-line="38" selection-end-column="15" />
           <folding>
             <marker date="1497122903556" expanded="false" signature="7:119" ph="..." />
-            <marker date="1497122903556" expanded="true" signature="143:880" ph="{...}" />
             <marker date="1497122903556" expanded="true" signature="172:878" ph="{...}" />
             <marker date="1497122903556" expanded="true" signature="226:872" ph="{...}" />
             <marker date="1497122903556" expanded="true" signature="554:862" ph="{...}" />
@@ -608,7 +729,6 @@
           <caret line="33" column="24" lean-forward="false" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
           <folding>
             <marker date="1497122302809" expanded="true" signature="6:179" ph="..." />
-            <marker date="1497122302809" expanded="true" signature="203:3901" ph="{...}" />
             <marker date="1497122302809" expanded="true" signature="235:3899" ph="{...}" />
             <marker date="1497122302809" expanded="true" signature="304:397" ph="{...}" />
             <marker date="1497122302809" expanded="true" signature="456:1377" ph="{...}" />
@@ -641,7 +761,6 @@
           <caret line="20" column="11" lean-forward="false" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
           <folding>
             <marker date="1497122967847" expanded="true" signature="6:104" ph="..." />
-            <marker date="1497122967847" expanded="true" signature="121:724" ph="{...}" />
             <marker date="1497122967847" expanded="true" signature="159:722" ph="{...}" />
             <marker date="1497122967847" expanded="true" signature="246:715" ph="{...}" />
           </folding>
@@ -653,27 +772,27 @@
         <state relative-caret-position="1365">
           <caret line="91" column="26" lean-forward="false" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="26" />
           <folding>
-            <marker date="1497122738006" expanded="true" signature="6:325" ph="..." />
-            <marker date="1497122738006" expanded="true" signature="361:3827" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="405:3825" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="819:993" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="869:981" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="1035:1638" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="1102:1514" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="1531:1628" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="1770:2612" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2100:2602" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2226:2587" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2313:2569" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2396:2547" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2655:3818" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2751:2819" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2915:2983" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2997:3167" ph="/* HARASS ... */" />
-            <marker date="1497122738006" expanded="true" signature="3245:3324" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="3400:3466" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="3480:3671" ph="/* JUNGLE CLEAR ... */" />
-            <marker date="1497122738006" expanded="true" signature="3743:3808" ph="{...}" />
+            <marker date="1498076647977" expanded="false" signature="6:325" ph="..." />
+            <marker date="1498076647977" expanded="true" signature="361:3827" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="405:3825" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="819:993" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="869:981" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1035:1638" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1102:1514" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1531:1628" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1770:2612" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2100:2602" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2226:2587" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2313:2569" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2396:2547" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2655:3818" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2751:2819" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2915:2983" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2997:3167" ph="/* HARASS ... */" />
+            <marker date="1498076647977" expanded="true" signature="3245:3324" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="3400:3466" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="3480:3671" ph="/* JUNGLE CLEAR ... */" />
+            <marker date="1498076647977" expanded="true" signature="3743:3808" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -683,48 +802,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding>
-            <marker date="1497115306070" expanded="false" signature="6:53" ph="..." />
-            <marker date="1497115306070" expanded="true" signature="75:315" ph="{...}" />
-            <marker date="1497115306070" expanded="true" signature="101:313" ph="{...}" />
-            <marker date="1497115306070" expanded="true" signature="149:307" ph="{...}" />
-            <marker date="1497115306070" expanded="true" signature="251:301" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Item.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="45" column="25" lean-forward="true" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Combo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
-          <folding>
-            <marker date="1497122051582" expanded="true" signature="6:321" ph="..." />
-            <marker date="1497122051582" expanded="true" signature="344:1813" ph="{...}" />
-            <marker date="1497122051582" expanded="true" signature="370:1811" ph="{...}" />
-            <marker date="1497122051582" expanded="true" signature="432:1805" ph="{...}" />
-            <marker date="1497122051582" expanded="true" signature="1271:1328" ph="{...}" />
-            <marker date="1497122051582" expanded="true" signature="1367:1429" ph="{...}" />
-            <marker date="1497122051582" expanded="true" signature="1469:1669" ph="{...}" />
-            <marker date="1497122051582" expanded="true" signature="1724:1795" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Item.cs" />
     <entry file="file://$PROJECT_DIR$/Nasus/Modes/Lasthit.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
+        <state relative-caret-position="1065">
           <caret line="71" column="24" lean-forward="false" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding>
             <marker date="1497122302809" expanded="true" signature="6:179" ph="..." />
-            <marker date="1497122302809" expanded="true" signature="203:3901" ph="{...}" />
             <marker date="1497122302809" expanded="true" signature="235:3899" ph="{...}" />
             <marker date="1497122302809" expanded="true" signature="304:397" ph="{...}" />
             <marker date="1497122302809" expanded="true" signature="456:1377" ph="{...}" />
@@ -757,7 +844,6 @@
           <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
           <folding>
             <marker date="1497122903556" expanded="false" signature="7:119" ph="..." />
-            <marker date="1497122903556" expanded="true" signature="143:880" ph="{...}" />
             <marker date="1497122903556" expanded="true" signature="172:878" ph="{...}" />
             <marker date="1497122903556" expanded="true" signature="226:872" ph="{...}" />
             <marker date="1497122903556" expanded="true" signature="554:862" ph="{...}" />
@@ -769,7 +855,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nasus/Modes/Killsteal.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
+        <state relative-caret-position="480">
           <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
           <folding>
             <marker date="1497115847927" expanded="false" signature="6:165" ph="..." />
@@ -801,53 +887,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Nasus/Initialization.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="110" column="11" lean-forward="false" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
-          <folding>
-            <marker date="1497122738006" expanded="true" signature="6:325" ph="..." />
-            <marker date="1497122738006" expanded="true" signature="361:3827" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="405:3825" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="819:993" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="869:981" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="1035:1638" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="1102:1514" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="1531:1628" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="1770:2612" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2100:2602" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2226:2587" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2313:2569" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2396:2547" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2655:3818" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2751:2819" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2915:2983" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="2997:3167" ph="/* HARASS ... */" />
-            <marker date="1497122738006" expanded="true" signature="3245:3324" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="3400:3466" ph="{...}" />
-            <marker date="1497122738006" expanded="true" signature="3480:3671" ph="/* JUNGLE CLEAR ... */" />
-            <marker date="1497122738006" expanded="true" signature="3743:3808" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Nasus/PermaActive.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="35" column="1" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <marker date="1497122756203" expanded="true" signature="0:964" ph="/* using HesaEngine.SDK; ... */" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Nasus/Spells.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="79" lean-forward="true" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
+          <caret line="14" column="79" lean-forward="false" selection-start-line="14" selection-start-column="79" selection-end-line="14" selection-end-column="79" />
           <folding>
             <marker date="1497122967847" expanded="true" signature="6:104" ph="..." />
-            <marker date="1497122967847" expanded="true" signature="121:724" ph="{...}" />
             <marker date="1497122967847" expanded="true" signature="159:722" ph="{...}" />
             <marker date="1497122967847" expanded="true" signature="246:715" ph="{...}" />
           </folding>
@@ -856,13 +909,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Nasus/Menu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="35" column="76" lean-forward="false" selection-start-line="35" selection-start-column="76" selection-end-line="35" selection-end-column="76" />
+        <state relative-caret-position="246">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
           <folding>
             <marker date="1497123095459" expanded="false" signature="6:57" ph="..." />
             <marker date="1497123095459" expanded="true" signature="73:2085" ph="{...}" />
             <marker date="1497123095459" expanded="true" signature="105:2083" ph="{...}" />
             <marker date="1497123095459" expanded="true" signature="420:2077" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Modes/Combo.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <marker date="1497122051582" expanded="true" signature="6:321" ph="..." />
+            <marker date="1497122051582" expanded="true" signature="370:1811" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="432:1805" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="1271:1328" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="1367:1429" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="1469:1669" ph="{...}" />
+            <marker date="1497122051582" expanded="true" signature="1724:1795" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Nasus/Initialization.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+          <folding>
+            <marker date="1498076647977" expanded="false" signature="6:325" ph="..." />
+            <marker date="1498076647977" expanded="true" signature="361:3827" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="405:3825" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="819:993" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="869:981" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1035:1638" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1102:1514" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1531:1628" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="1770:2612" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2100:2602" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2226:2587" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2313:2569" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2396:2547" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2655:3818" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2751:2819" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2915:2983" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="2997:3167" ph="/* HARASS ... */" />
+            <marker date="1498076647977" expanded="true" signature="3245:3324" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="3400:3466" ph="{...}" />
+            <marker date="1498076647977" expanded="true" signature="3480:3671" ph="/* JUNGLE CLEAR ... */" />
+            <marker date="1498076647977" expanded="true" signature="3743:3808" ph="{...}" />
           </folding>
         </state>
       </provider>

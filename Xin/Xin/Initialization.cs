@@ -3,17 +3,17 @@ using HesaEngine.SDK;
 using HesaEngine.SDK.GameObjects;
 using HesaEngine.SDK.Enums;
 using HesaEngine.SDK.Args;
-using Nasus.Modes;
+using Xin.Modes;
 using SharpDX;
 using static HesaEngine.SDK.Logger;
-using static Nasus.MenuLoader;
-using static Nasus.SpellLoader;
-using static Nasus.Modes.Combo;
-using static Nasus.Modes.Functions;
+using static Xin.MenuLoader;
+using static Xin.SpellLoader;
+using static Xin.Modes.Combo;
+using static Xin.Modes.Functions;
 
 // >> FUCK THIS!
 
-namespace Nasus
+namespace Xin
 
 {
     public class Initialization : IScript
@@ -21,7 +21,7 @@ namespace Nasus
 
 
 
-        public string Name => "HM Nasus";
+        public string Name => "VoidKing";
 
         public string Version => "1.0.0";
 
@@ -49,7 +49,7 @@ namespace Nasus
 
         private void Game_OnGameLoaded()
         {
-            if (ObjectManager.Me.Hero == Champion.Nasus)
+            if (ObjectManager.Me.Hero == Champion.Xin)
             {
 
                 LoadMenu();
