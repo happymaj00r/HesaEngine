@@ -21,7 +21,7 @@ namespace Alistar
 
 
 
-        public string Name => "AlistarZhao";
+        public string Name => "Alistar";
 
         public string Version => "1.0.0";
 
