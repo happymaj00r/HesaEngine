@@ -106,7 +106,7 @@ namespace HMKatarina
 
 
 
-                 PermaActive.PermaActivee();
+                // PermaActive.PermaActivee();
 
 
 

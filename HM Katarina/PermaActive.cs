@@ -21,9 +21,9 @@ namespace HMKatarina
 
          
          
-         var minion = MinionManager.GetMinions(E.Range, MinionTypes.All, MinionTeam.All);
+         /*var minion = MinionManager.GetMinions(E.Range, MinionTypes.All, MinionTeam.All);
          
-            if (  Player.HealthPercent < FleeMenu.Get<MenuSlider>("UseEauto").CurrentValue && Player.HealthPercent != null && Player.Health != null && Player.IsUnderEnemyTurret() && E.IsReady())
+            if (  Player.HealthPercent < FleeMenu.Get<MenuSlider>("UseEauto").CurrentValue  && Player.IsUnderEnemyTurret() && E.IsReady())
             {
                foreach (var m in minion)
                {
@@ -34,7 +34,7 @@ namespace HMKatarina
             }
             
          
-        
+        */
 
         
       }
