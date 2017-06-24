@@ -19,7 +19,7 @@ namespace HMKatarina.Modes
             {
                 if (Functions.CanUseSpell(SpellSlot.Q) && Functions.CanUseSpell(SpellSlot.E))
                 {
-                    var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(e => e.IsValidTarget(E.Range) && Functions.MyHero.GetSpellDamage(e, SpellSlot.Q) + Functions.MyHero.GetSpellDamage(e, SpellSlot.E) + 100 >= e.Health);
+                    var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(e => e.IsValidTarget(E.Range) && Functions.MyHero.GetSpellDamage(e, SpellSlot.Q) + Functions.MyHero.GetSpellDamage(e, SpellSlot.E) + 10 >= e.Health);
                     if (Functions.IsTargetValidWithRange(_Target, E.Range))
                     {
                         _isUlting = false;
@@ -39,7 +39,7 @@ namespace HMKatarina.Modes
 
                 if ( Functions.CanUseSpell(SpellSlot.E))
                 {
-                    var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(e => e.IsValidTarget(E.Range) && Functions.MyHero.GetSpellDamage(e, SpellSlot.E) + Functions.MyHero.GetAutoAttackDamage(e) + 50 >= e.Health);
+                    var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(e => e.IsValidTarget(E.Range) && Functions.MyHero.GetSpellDamage(e, SpellSlot.E) + Functions.MyHero.GetAutoAttackDamage(e) + 10  >= e.Health);
                     if (Functions.IsTargetValidWithRange(_Target, E.Range))
                     {
                         if (E.IsReady())
@@ -66,7 +66,7 @@ namespace HMKatarina.Modes
                 }
                 if (Functions.CanUseSpell(SpellSlot.Q))
                 {
-                    var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(e => e.IsValidTarget(Q.Range) && Functions.MyHero.GetSpellDamage(e, SpellSlot.Q) + 120 >= e.Health);
+                    var _Target = ObjectManager.Heroes.Enemies.FirstOrDefault(e => e.IsValidTarget(Q.Range) && Functions.MyHero.GetSpellDamage(e, SpellSlot.Q)  >= e.Health);
                     if (Functions.IsTargetValidWithRange(_Target, Q.Range))
                     {
                         _isUlting = false;
