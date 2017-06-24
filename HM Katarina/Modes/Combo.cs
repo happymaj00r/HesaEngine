@@ -46,7 +46,7 @@ namespace HMKatarina.Modes
                 }
 
             }
-            if (!Q.IsReady() && etarget != null && e && _isUlting != true && Player != null &&  etarget.IsInRange(Player.Position, E.Range))
+            if (!Q.IsReady() && etarget != null && e && _isUlting != true  && E.IsLearned)
             {
                
                 if ( etarget.Position.IsInRange(d, W.Range) && dd && IsValidVector(d))
@@ -55,7 +55,7 @@ namespace HMKatarina.Modes
                 
                     E.Cast(GetBestDaggerPoint(d, etarget));
                 }
-                else if (Player.Distance(etarget) >= W.Range && etarget != null && d != null)
+                else if (Player.Distance(etarget) >= W.Range && etarget != null)
                     E.Cast(etarget.Position);
             }
            

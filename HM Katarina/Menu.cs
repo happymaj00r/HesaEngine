@@ -57,9 +57,7 @@ namespace HMKatarina
             FleeMenu = MainMenu.AddSubMenu("Flee Menu");
             FleeMenu.Add(new MenuCheckbox("useWFlee", "Use W", true));
             FleeMenu.Add(new MenuCheckbox("useEFlee", "Use E", true));
-            FleeMenu.Add(new MenuSlider("UseEauto", "Auto E", 0,100,0));
-            FleeMenu.Add(new MenuCheckbox("dasd","Out of Tower Range if"));
-            FleeMenu.Add(new MenuCheckbox("dopd","Health % is under"));
+            
             
 
         }
