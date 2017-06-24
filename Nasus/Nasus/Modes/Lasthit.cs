@@ -10,50 +10,17 @@ namespace Nasus.Modes
 
 {
     public class Lasthit
-    
+
     {
-        
-        static float GetUnitTotalAD(Obj_AI_Base unit)
-        {
-            return unit.BaseAttackDamage + unit.FlatBaseAttackDamageMod;
-        }
-        
-        static double GetWdmg(Obj_AI_Base target)
-        {
-            int qedmg = 0;
-            if (ObjectManager.Player.GetSpell(SpellSlot.Q).Level == 1)
-            {
-                qedmg = 30;
-            }
-            if (ObjectManager.Player.GetSpell(SpellSlot.Q).Level == 2)
-            {
-                qedmg = 50;
-            }
-            if (ObjectManager.Player.GetSpell(SpellSlot.Q).Level == 3)
-            {
-                qedmg = 70;
-            }
-            if (ObjectManager.Player.GetSpell(SpellSlot.Q).Level == 4)
-            {
-                qedmg = 90;
-            }
-            if (ObjectManager.Player.GetSpell(SpellSlot.Q).Level == 5)
-            {
-                qedmg = 100;
 
-            }
-            double calc = GetUnitTotalAD(ObjectManager.Player) * 1.0;
-            double full = calc + qedmg;
-            double damage = ObjectManager.Player.CalcDamage(target, Damage.DamageType.Physical, full);
-            return damage ;
-
-        }
+        
         private static Obj_AI_Base _LastMinion;
-        
-        
-       public static Obj_AI_Base _GetMinionW(Spell daSpell)
+
+        private static Obj_AI_Base _GetMinion(Spell daSpell)
         {
-            var _Minions = MinionManager.GetMinions(daSpell.Range, MinionTypes.All, MinionTeam.Enemy).OrderBy(x => x.Health);
+            Logger.Log("_GetMinion");
+            var _Minions = MinionManager.GetMinions(daSpell.Range, MinionTypes.All, MinionTeam.Enemy)
+                .OrderBy(x => x.Health);
             if (!_Minions.IsEmpty())
             {
                 var Temp = _Minions.FirstOrDefault();
@@ -61,11 +28,20 @@ namespace Nasus.Modes
                 {
                     if (Temp.Equals(_LastMinion))
                     {
-                        if (_Minions.Count() > 1) { Temp = _Minions.Skip(1).First(); } else { return null; }
+                        if (_Minions.Count() > 1)
+                        {
+                            Temp = _Minions.Skip(1).First();
+                        }
+                        else
+                        {
+                            return null;
+                        }
                     }
 
-                    if (GetWdmg(Temp) >= MinionHealthPrediction.GetHealthPrediction(Temp, Game.GameTimeTickCount, (int)Math.Ceiling(daSpell.Delay)))
+                    if ( >= MinionHealthPrediction.GetHealthPrediction(Temp, Game.GameTimeTickCount,
+                            (int) Math.Ceiling(daSpell.Delay)))
                     {
+                        Logger.Log("GetWdmg");
                         _LastMinion = Temp;
                         return Temp;
                     }
@@ -73,23 +49,22 @@ namespace Nasus.Modes
             }
             return null;
         }
+
         public static void Initialize()
         {
-            var target = _GetMinionW(Q);
-            if (MenuLoader.LastHitMenu.Get<MenuCheckbox>("useQLH").Checked)
+            if (Q.IsLearned && MenuLoader.LastHitMenu.Get<MenuCheckbox>("useQLH").Checked)
             {
-                if (Q.IsReady())
+                Logger.Log("Initialize");
+                if (Functions.CanUseSpell(SpellSlot.Q))
                 {
-
-                   
-                    if (target != null && target.IsValid())
+                    var Target = _GetMinion(SpellLoader.Q);
+                    if (Target != null && Target.IsValid())
                     {
-                       Q.Cast();
-                        Core.Orbwalker.ForceTarget(target);
+                        Core.DelayAction(() => SpellLoader.Q.Cast(), 1);
+                        
                     }
                 }
             }
-            
         }
     }
 }
