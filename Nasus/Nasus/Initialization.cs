@@ -90,15 +90,14 @@ namespace Nasus
 
                 if (target != null && !target.IsDead)
                 {
-                    if (ComboMenu.Get<MenuCheckbox>("useW").Checked)
-                    {
+                    
                         if (Q.IsReady() && target.IsValid())
                         {
                             Q.Cast();
                           Orbwalker.ResetAutoAttackTimer();
 
+                        
                         }
-                    }
                 } 
             }
         }
