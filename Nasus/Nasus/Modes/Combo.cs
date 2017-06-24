@@ -1,7 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Dynamic;
 using System.Security.Cryptography.X509Certificates;
 using HesaEngine.SDK;
+using HesaEngine.SDK.Args;
 using HesaEngine.SDK.GameObjects;
 using static Nasus.MenuLoader;
 using static Nasus.SpellLoader;
@@ -54,7 +56,7 @@ namespace Nasus.Modes
             if (r && rtarget != null )
 
             {
-               if (Player.HealthPercent < ComboMenu.Get<MenuSlider>("UseEauto").CurrentValue && Player.HealthPercent != null)
+               if (ObjectManager.Player.HealthPercent < ComboMenu.Get<MenuSlider>("UseEauto").CurrentValue )
                    
                 R.Cast();
             }

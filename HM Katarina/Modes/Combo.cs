@@ -79,7 +79,7 @@ namespace HMKatarina.Modes
             }
 
 
-            if (r && rtarget != null && _isUlting != true && !E.IsReady() && !W.IsReady())
+            if (r && rtarget != null && _isUlting != true  && !W.IsReady() && !Q.IsReady())
             {
                 R.Cast(rtarget);
 
