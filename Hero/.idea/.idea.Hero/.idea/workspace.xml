@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Initialization.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Initialization.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Hero/Initialization.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="660">
+              <caret line="88" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
               <folding>
                 <marker date="1498336902508" expanded="true" signature="6:306" ph="..." />
                 <marker date="1498336902508" expanded="true" signature="340:3604" ph="{...}" />
@@ -156,7 +156,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Functions.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Functions.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hero/Modes/Functions.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -450,12 +450,12 @@
       <option name="presentableId" value="Default" />
       <updated>1498317642147</updated>
       <workItem from="1498317644067" duration="599000" />
-      <workItem from="1498333430321" duration="3307000" />
+      <workItem from="1498333430321" duration="4856000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3906000" />
+    <option name="totallyTimeSpent" value="5455000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -467,7 +467,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -645,22 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hero/Modes/Functions.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <marker date="1498333643255" expanded="false" signature="6:136" ph="..." />
-            <marker date="1498333643255" expanded="true" signature="158:872" ph="{...}" />
-            <marker date="1498333643255" expanded="true" signature="197:870" ph="{...}" />
-            <marker date="1498333643255" expanded="true" signature="334:388" ph="{...}" />
-            <marker date="1498333643255" expanded="true" signature="445:543" ph="{...}" />
-            <marker date="1498333643255" expanded="true" signature="608:689" ph="{...}" />
-            <marker date="1498333643255" expanded="true" signature="775:861" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Hero/Modes/Combo.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -694,8 +678,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hero/Initialization.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="660">
+          <caret line="88" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
           <folding>
             <marker date="1498336902508" expanded="true" signature="6:306" ph="..." />
             <marker date="1498336902508" expanded="true" signature="340:3604" ph="{...}" />
@@ -716,6 +700,22 @@
             <marker date="1498336902508" expanded="true" signature="3059:3135" ph="{...}" />
             <marker date="1498336902508" expanded="true" signature="3236:3302" ph="{...}" />
             <marker date="1498336902508" expanded="true" signature="3316:3507" ph="/* JUNGLE CLEAR ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hero/Modes/Functions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="6" column="20" lean-forward="false" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          <folding>
+            <marker date="1498333643255" expanded="false" signature="6:136" ph="..." />
+            <marker date="1498333643255" expanded="true" signature="158:872" ph="{...}" />
+            <marker date="1498333643255" expanded="true" signature="197:870" ph="{...}" />
+            <marker date="1498333643255" expanded="true" signature="334:388" ph="{...}" />
+            <marker date="1498333643255" expanded="true" signature="445:543" ph="{...}" />
+            <marker date="1498333643255" expanded="true" signature="608:689" ph="{...}" />
+            <marker date="1498333643255" expanded="true" signature="775:861" ph="{...}" />
           </folding>
         </state>
       </provider>
