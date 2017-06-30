@@ -46,10 +46,7 @@ namespace Fiora2.Modes
             }
             
            
-           
-            
-             
-            if (w && wtarget != null )
+             if (w && wtarget != null )
             {
 
                 

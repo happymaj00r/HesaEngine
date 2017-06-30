@@ -26,7 +26,7 @@ namespace Fiora2
 
             if (ItemActivatorMenu.Get<MenuCheckbox>("useG").Checked)
 
-            {
+            { 
                 if (Hextechgunblade.IsOwned() && Hextechgunblade.IsReady() && Orb.ActiveMode == Orbwalker.OrbwalkingMode.Combo )
                 {
                            Hextechgunblade.Cast(target);

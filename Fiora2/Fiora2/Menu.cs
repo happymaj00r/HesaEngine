@@ -1,5 +1,7 @@
 ﻿using static Fiora2.Initialization;
 using HesaEngine.SDK;
+using Microsoft.Win32;
+
 namespace Fiora2
 {
     internal class MenuLoader
@@ -26,7 +28,7 @@ namespace Fiora2
             ComboMenu.Add(new MenuCheckbox("useW", "Use W (not recommended)", true));
             ComboMenu.Add(new MenuCheckbox("useE", "Use E", true));
             ComboMenu.Add(new MenuCheckbox("useR", "Use R ", true));
-           
+            ComboMenu.Add(new MenuSlider("UseEauto", "Use R at X% enemy Healht", 0, 100, 0));
             /* Last Hit Section */
             LastHitMenu = MainMenu.AddSubMenu("Last Hit Menu");
             LastHitMenu.Add(new MenuCheckbox("useQLH", "Use Q", true));

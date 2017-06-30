@@ -21,7 +21,7 @@ namespace Fiora2
 
         public string Name => "HM Fiora";
 
-        public string Version => "1.7.1";
+        public string Version => "0.1.0";
 
         public string Author => "HappyMajor";
 
@@ -53,8 +53,12 @@ namespace Fiora2
               LoadMenu();
               LoadSpells();
               LoadDrawings();
-
+                
                 Game.OnTick += Game_OnTick;
+                
+                Obj_AI_Base.OnBuffLost += OnBuffLose;
+               
+                
                 Orbwalker.AfterAttack += AfterAttack;
 
 
@@ -66,15 +70,18 @@ namespace Fiora2
               Chat.Print("I dont Support "+ObjectManager.Me.Hero);
             }
         }
-       
         
         public static Item THydra;
         public static Item RHydra;
         public static Item Tiamat;
         
-        public static void AfterAttack(AttackableUnit sender, AttackableUnit ArgsTarget)
+      
+        public static void OnBuffLose(Obj_AI_Base sender, Obj_AI_BaseBuffLostEventArgs args)
+
         {
-           
+            if (args.Buff.Name.ToLower() == "FioraE" || args.Buff.Name.ToLower() == "fiorae" && Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo))
+            {
+               
                 var items = ItemActivatorMenu.Get<MenuCheckbox>("useG").Checked;
                 var ttarget = TargetSelector.GetTarget(385);
                 var rtarget = TargetSelector.GetTarget(385);
@@ -82,13 +89,42 @@ namespace Fiora2
                 THydra = new Item(3748, 385);
                 RHydra = new Item(3074, 385);
                 Tiamat = new Item(3077, 385);
+
+                if (THydra.IsOwned() && THydra.IsReady() && items)
+                {
+                    Orbwalker.ResetAutoAttackTimer();
+                    THydra.Cast(ttarget);
+                   
+                }
+                if (RHydra.IsOwned() && RHydra.IsReady() && items)
+                {
+                    RHydra.Cast();
+                   
+                }
+                if (Tiamat.IsOwned() && Tiamat.IsReady() && items)
+                {
+                    Tiamat.Cast(tiamattarget);
+                }
+               
+              
+
+
+
+            }
+        }
+
+        
+        public static void AfterAttack(AttackableUnit sender, AttackableUnit ArgsTarget)
+        {
+           
+               
                 if (!sender.IsMe || ObjectManager.Me.IsDead)
                     return;
 
                 if (ArgsTarget == null || ArgsTarget.IsDead || ArgsTarget.Health <= 0)
                     return;
 
-                if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo))
+                if (Orb.ActiveMode.Equals(Orbwalker.OrbwalkingMode.Combo) && ComboMenu.Get<MenuCheckbox>("useE").Checked )
                 {
                     var target = ArgsTarget as AIHeroClient;
 
@@ -100,25 +136,9 @@ namespace Fiora2
                         {
                             E.Cast();
                             Orbwalker.ResetAutoAttackTimer();
-                            if (RHydra.IsOwned() && RHydra.IsReady()  && items)
-                            {
-                                RHydra.Cast();
-                            }
+                            
                         }
 
-                        if (THydra.IsOwned() && THydra.IsReady() && items)
-                            {
-                                THydra.Cast(ttarget);
-
-                            }
-                            if (RHydra.IsOwned() && RHydra.IsReady() && items)
-                            {
-                                RHydra.Cast();
-                            }
-                            if (Tiamat.IsOwned() && Tiamat.IsReady() && items)
-                            {
-                                Tiamat.Cast(tiamattarget);
-                            }
                         
                     }
                 }

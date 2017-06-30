@@ -8,9 +8,6 @@ C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\SharpDX.
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\SharpDX.Direct3D9.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\HesaEngine.Wrapper.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\Runtime.dll
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\SharpDX.xml
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\SharpDX.DirectInput.xml
-C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\SharpDX.Direct3D9.xml
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\de\mscorlib.resources.dll
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\normidna.nlp
 C:\Users\HappyMajor\Documents\GitHub\HesaEngine\Fiora2\Fiora2\bin\Debug\normnfc.nlp
